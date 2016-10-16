@@ -1,0 +1,64 @@
+html{
+    background-color: black;
+
+}
+h1 {
+    color: red;
+    padding: 20px;
+    font-size: 100px;
+}
+nav>ul>li{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+    font-family: Georgia, serif;
+
+}
+
+nav>ul>li:hover{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    background-color: red;
+    color: black;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+
+}
+nav>ul>li>a:visited{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+}
+section  li ,section h2 {
+    text-decoration: none;
+    color: red;
+    padding : 10px;
+ display: block;
+
+}
+section ul {
+    border:5px dashed red ;
+font-size: 40px;
+    display: inline-block;
+    padding: 10px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+secton img {
+   display: inline-block;
+    padding: 10px;
+}
+h2 {
+    font-size: 40px;
+}
+secton +img {
+    width: 100px;
+height: inherit;}
