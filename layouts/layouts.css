@@ -12,3 +12,25 @@ body{
     margin: 0;
     padding: 0;
 }
+
+nav,main ,aside  {
+
+    width:29%
+}
+nav {
+    float: left;
+    margin-bottom: 100%;
+    margin-top: 55px
+
+}
+main{
+float: left
+
+}
+aside {
+    margin-top: -777px;
+    float: left;
+    clear: both;
+    margin-bottom: 100%;
+    width: 15%
+}

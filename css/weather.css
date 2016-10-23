@@ -1,3 +1,7 @@
+html *{
+    padding: 0;
+    margin: 0;
+}
 html{
     background-color: black;
 
@@ -14,9 +18,15 @@ nav>ul>li{
     padding: 20px;
     color: red;
     font-family: Georgia, serif;
+    width: 33%;
 
 }
-
+h2{
+    color: red;
+}
+#midle{
+    width: 80%;
+}
 nav>ul>li:hover{
     text-decoration: none;
     display:inline;
@@ -37,7 +47,7 @@ nav>ul>li>a:visited{
     padding: 20px;
     color: red;
 }
-section  li ,section h2 {
+section  li ,section h2,#pic {
     text-decoration: none;
     color: red;
     padding : 10px;
@@ -59,6 +69,47 @@ secton img {
 h2 {
     font-size: 40px;
 }
-secton +img {
-    width: 100px;
-height: inherit;}
+footer img {
+    width: 50%;
+}
+#day,#pic{
+    display: none;
+
+}
+footer{
+    display: block;
+    margin-top: 1000px;}
+
+    @media only screen and (min-width: 600px)  {
+    #day,#pic{
+        display: block;
+.0.
+        font-size: 40px;
+    }
+        #pic *{
+            width: 20%;
+            font-size: 40px;
+        }
+    #night{
+        display: none;
+    }
+#day
+        {
+            float: right;
+        }
+        #midle{
+            float:right;
+            width: 40%;
+            margin-top: -500px;
+
+
+        }
+}
+@media only screen and (min-width: 768px) {
+    #day,#pic *{
+        width: 20%;
+    }
+    #pic *{
+        margin-right: -55px;
+    }
+}
