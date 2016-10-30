@@ -1,4 +1,4 @@
-html *{
+/*html *{
     padding: 0;
     margin: 0;
 }
@@ -19,7 +19,7 @@ nav>ul>li{
     color: red;
     font-family: Georgia, serif;
     width: 33%;
-
+jujujujujujujujujuj
 }
 h2{
     color: red;
@@ -70,7 +70,7 @@ h2 {
     font-size: 40px;
 }
 footer img {
-    width: 50%;
+    width: 10%;
 }
 #day,#pic{
     display: none;
@@ -112,4 +112,145 @@ footer{
     #pic *{
         margin-right: -55px;
     }
+}
+*/
+
+*html *{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: black;
+
+}
+h1 {
+    color: red;
+    padding: 20px;
+    font-size: 80px;
+}
+nav>ul>li{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+    font-family: Georgia, serif;
+    width: 33%;
+}
+h2{
+    color: red;
+}
+nav>ul>li:hover{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    background-color: red;
+    color: black;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+
+}
+nav>ul>li>a:visited{
+    text-decoration: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+    color: red;
+}
+section  li ,section h2,#pic {
+    text-decoration: none;
+    color: red;
+    padding : 10px 0;
+    display: block;
+
+}
+section ul {
+    border:5px dashed red ;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px -20px;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction:column;
+
+
+}
+body{
+    width: 70%;
+}
+img {
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+}
+body *{
+
+    padding-left: -60px;
+}
+li,p{
+     width: 70%;
+}
+@media only screen and (min-width: 600px){
+    body{
+        display: inline;
+    }
+    main{
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: flex-start ;
+
+    }
+        #pic
+        {display: block;
+            width: 30%;
+
+    }
+    p{margin-right: 20%;}
+    }
+#pic *{
+ float: left;
+    clear: both;
+    font-size: 40px;
+font-size: 2em;
+    margin-left: 30px;
+}
+    #midle{
+width: 40%;
+        margin-right: 20px;
+
+}
+li{
+    font-size: .9em;
+}
+
+}
+@media only screen and (min-width: 768px) {
+
+    footer img{
+        width: 10%;
+        display: none;
+
+    }
+    main{
+        display: inline-block;
+        margin-top: 29em;
+    }
+
+    footer{
+        position: relative;
+
+        padding-top: 600px;
+        display: none;
+    }
+    #pic *{
+        float: none;
+        clear: both;
+        width: 30%;
+        font-size: .3em;
+
 }
