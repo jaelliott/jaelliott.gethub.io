@@ -125,10 +125,10 @@ html{
 }
 h1 {
     color: red;
-    padding: 20px;
-    font-size: 80px;
+    padding: 10px;
+    font-size: 60px;
 }
-nav>ul>li{
+nav>ul li{
     text-decoration: none;
     display:inline;
     font-size: 50px;
@@ -160,6 +160,8 @@ nav>ul>li>a:visited{
     padding: 20px;
     color: red;
 }
+ul{
+padding: 30%;}
 section  li ,section h2,#pic {
     text-decoration: none;
     color: red;
@@ -196,6 +198,23 @@ li,p{
      width: 70%;
 }
 @media only screen and (min-width: 600px){
+    nav {
+        margin-left: 20%;
+    }
+    footer{
+        width: 70%;
+    }
+    main{
+        width: 70%;
+    }
+    section{
+        margin-left: -20%;
+    }
+    ul{
+        padding: 0;
+        margin-left: -5%;
+        padding-right: -10%;
+    }
     body{
         display: inline;
     }
