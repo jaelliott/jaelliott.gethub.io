@@ -26,7 +26,7 @@ $(function () {
         var cityDisplay = $('.cityDisplay');
 
         $.ajax({
-            url: "http://api.wunderground.com/api/9fc78788ceaa4015/geolookup/conditions/q/" + lat + "," + lon + ".json",
+            url: "https://api.wunderground.com/api/9fc78788ceaa4015/geolookup/conditions/q/" + lat + "," + lon + ".json",
             dataType: "jsonp",
             success: function (parsed_json) {
                 var location1 = parsed_json['location']['city'];
