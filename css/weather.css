@@ -1,4 +1,4 @@
-/*html *{
+    /*html *{
     padding: 0;
     margin: 0;
 }
@@ -115,161 +115,205 @@ footer{
 }
 */
 
-*html *{
-    padding: 0;
-    margin: 0;
-}
-html{
-    background-color: black;
-
-}
-h1 {
-    color: red;
-    padding: 10px;
-    font-size: 60px;
-}
-nav>ul li{
-    text-decoration: none;
-    display:inline;
-    font-size: 50px;
-    padding: 20px;
-    color: red;
-    font-family: Georgia, serif;
-    width: 33%;
-}
-h2{
-    color: red;
-}
-nav>ul>li:hover{
-    text-decoration: none;
-    display:inline;
-    font-size: 50px;
-    padding: 20px;
-    background-color: red;
-    color: black;
-
-}
-nav>ul>li>a{
-    text-decoration: none;
-
-}
-nav>ul>li>a:visited{
-    text-decoration: none;
-    display:inline;
-    font-size: 50px;
-    padding: 20px;
-    color: red;
-}
-ul{
-padding: 30%;}
-section  li ,section h2,#pic {
-    text-decoration: none;
-    color: red;
-    padding : 10px 0;
-    display: block;
-
-}
-section ul {
-    border:5px dashed red ;
-    font-size: 30px;
-    display: inline-block;
-    padding: 10px -20px;
-    font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-body {
-    display: flex;
-    flex-direction:column;
-
-
-}
-body{
-    width: 70%;
-}
-img {
-    width: 50%;
-    display: inline-block;
-    margin: 0;
-}
-body *{
-
-    padding-left: -60px;
-}
-li,p{
-     width: 70%;
-}
-@media only screen and (min-width: 600px){
-    nav {
-        margin-left: 20%;
-    }
-    footer{
-        width: 70%;
-    }
-    main{
-        width: 70%;
-    }
-    section{
-        margin-left: -20%;
-    }
-    ul{
+    *html * {
         padding: 0;
-        margin-left: -5%;
-        padding-right: -10%;
+        margin: 0;
     }
-    body{
+
+    html {
+        background-color: black;
+    }
+
+    h1 {
+        color: red;
+        padding: 10px;
+        font-size: 60px;
+    }
+
+    nav>ul li {
+        text-decoration: none;
         display: inline;
+        font-size: 50px;
+        padding: 20px;
+        color: red;
+        font-family: Georgia, serif;
+        width: 33%;
     }
-    main{
+
+    h2 {
+        color: red;
+    }
+
+    nav>ul>li:hover {
+        text-decoration: none;
+        display: inline;
+        font-size: 50px;
+        padding: 20px;
+        background-color: red;
+        color: black;
+    }
+
+    nav>ul>li>a {
+        text-decoration: none;
+    }
+
+    nav>ul>li>a:visited {
+        text-decoration: none;
+        display: inline;
+        font-size: 50px;
+        padding: 20px;
+        color: red;
+    }
+
+    ul {
+        padding: 30%;
+    }
+
+    section li,
+    section h2,
+    #pic {
+        text-decoration: none;
+        color: red;
+        padding: 10px 0;
+        display: block;
+    }
+
+    section ul {
+        border: 5px dashed red;
+        font-size: 30px;
+        display: inline-block;
+        padding: 10px -20px;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+    }
+
+    body {
         display: flex;
-        flex-direction:row-reverse;
-        align-items: flex-start ;
-
+        flex-direction: column;
     }
-        #pic
-        {display: block;
+
+    body {
+        width: 70%;
+    }
+
+    img {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    body * {
+        padding-left: -60px;
+    }
+
+    li,
+    p {
+        width: 70%;
+    }
+
+    form {
+        background-repeat: no-repeat;
+        font-size: 16px;
+        padding: 14px 20px 12px 45px;
+        border: none;
+    }
+
+    .searchResults {
+        position: relative;
+        display: inline-block;
+    }
+
+    .searchResults ol {
+        display: none;
+        position: absolute;
+        background-color: #f6f6f6;
+        min-width: 230px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    .searchResults a {
+        color: red;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .searchResults a:hover {
+        background-color: #ddd
+    }
+
+    @media only screen and (min-width: 600px) {
+        nav {
+            margin-left: 20%;
+        }
+        footer {
+            width: 70%;
+        }
+        main {
+            width: 70%;
+        }
+        section {
+            margin-left: -20%;
+        }
+        ul {
+            padding: 0;
+            margin-left: -5%;
+            padding-right: -10%;
+        }
+        body {
+            display: inline;
+        }
+        main {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-start;
+        }
+        #pic {
+            display: block;
             width: 30%;
+        }
+        p {
+            margin-right: 20%;
+        }
+    }
 
+    #pic * {
+        float: left;
+        clear: both;
+        font-size: 40px;
+        font-size: 2em;
+        margin-left: 30px;
     }
-    p{margin-right: 20%;}
-    }
-#pic *{
- float: left;
-    clear: both;
-    font-size: 40px;
-font-size: 2em;
-    margin-left: 30px;
-}
-    #midle{
-width: 40%;
+
+    #midle {
+        width: 40%;
         margin-right: 20px;
+    }
 
-}
-li{
-    font-size: .9em;
-}
-
+    li {
+        font-size: .9em;
+    }
 }
 @media only screen and (min-width: 768px) {
-
-    footer img{
+    footer img {
         width: 10%;
         display: none;
-
     }
-    main{
+
+    main {
         display: inline-block;
         margin-top: 29em;
     }
 
-    footer{
+    footer {
         position: relative;
-
         padding-top: 600px;
         display: none;
     }
-    #pic *{
+
+    #pic * {
         float: none;
         clear: both;
         width: 30%;
         font-size: .3em;
-
-}
+    }
