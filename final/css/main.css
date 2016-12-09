@@ -1,0 +1,32 @@
+/*the stuff that wiaffect the whoe page no matter th size
+*/
+
+body {
+    background-color: midnightblue;
+    color: ghostwhite;
+}
+
+
+/* buttons */
+
+header li {
+    display: inline-block;
+    padding: 15px;
+    background-color: ghostwhite;
+    color: midnightblue;
+    width: 10%;
+    font-size: 90%;
+}
+
+header li a {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+header li:hover {
+    background-color: midnightblue;
+}
+
+header li a:hover {
+    color: ghostwhite;
+}
