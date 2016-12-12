@@ -36,7 +36,6 @@ $(function () {
                 var sunset1 = parsed_json['moon_phase']['sunset']['hour'];
                 var sunset2 = parsed_json['moon_phase']['sunset']['minute'];
                 var sunset = sunset1 + ":" + sunset2;
-
                 $("#cityDisplay").text(location);
                 $("#percentIlluminated").text("The percent illuminated is  " + percent_illuminated);
 
