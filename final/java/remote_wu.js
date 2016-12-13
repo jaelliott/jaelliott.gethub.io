@@ -39,7 +39,9 @@ $(function () {
                 $("#cityDisplay").text(location);
                 $("#percentIlluminated").text("The percent illuminated is  " + percent_illuminated);
 
-                $("#ageOfMoon").text("The age Of Moon is  " + ageOfMoon);
+                var img = document.createElement("IMG");
+                img.src = "http://icons.wunderground.com/graphics/moonpictsnew/moon" + ageOfMoon + ".gif"
+                $('#ageOfMoon').html(img);
 
                 $("#sunset").text("Sun set is " + sunset);
 
