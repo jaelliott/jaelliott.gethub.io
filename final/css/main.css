@@ -1,33 +1,179 @@
-/*the stuff that wiaffect the whoe page no matter th size
+    /*the stuff that wiaffect the whoe page no matter th size
 */
 
-body {
-    background-color: midnightblue;
-    color: ghostwhite;
+    body {
+        background-color: midnightblue;
+        color: ghostwhite;
+    }
+    /* buttons */
+
+    header li {
+        display: inline-block;
+        padding: 15px;
+        background-color: ghostwhite;
+        color: midnightblue;
+        width: 10%;
+        font-size: 90%;
+        margin-bottom: 30%;
+        margin-top: 30%;
+    }
+
+    5 header li a {
+        color: midnightblue;
+        text-decoration: none;
+    }
+
+    header li:hover {
+        background-color: midnightblue;
+    }
+
+    header li a:hover {
+        color: ghostwhite;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        width: 70%;
+    }
+
+    *html * {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        padding: 10px;
+        font-size: 60px;
+    }
+
+    ul {
+        padding: 30%;
+    }
+
+    section li,
+    section h2,
+    #pic {
+        text-decoration: none;
+        color: ghostwhite;
+        padding: 10px 0;
+        display: block;
+    }
+
+    section ul {
+        font-size: 30px;
+        display: inline-block;
+        padding: 10px -20px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    body {
+        width: 70%;
+    }
+
+    img {
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+    }
+
+    body * {
+        padding-left: -60px;
+    }
+
+    li,
+    p {
+        width: 70%;
+    }
+
+    form {
+        background-repeat: no-repeat;
+        font-size: 16px;
+        padding: 14px 20px 12px 45px;
+        border: none;
+    }
+
+    .searchResults {
+        position: relative;
+        display: inline-block;
+    }
 }
 
-
-/* buttons */
-
-header li {
-    display: inline-block;
-    padding: 15px;
-    background-color: ghostwhite;
-    color: midnightblue;
-    width: 10%;
-    font-size: 90%;
+}
+@media only screen and (min-width: 600px) {
+    nav li {
+        width: 40%;
+    }
+    nav {
+        margin-left: 20%;
+    }
+    footer {
+        width: 70%;
+    }
+    main {
+        width: 70%;
+    }
+    section {
+        margin-left: -20%;
+    }
+    ul {
+        padding: 0;
+        margin-left: -5%;
+        padding-right: -10%;
+    }
+    body {
+        display: inline;
+    }
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    #pic {
+        display: block;
+        width: 30%;
+    }
+    p {
+        margin-right: 20%;
+    }
+}
+flex-direction: column;
+#left * {
+    float: left;
+    clear: both;
+    font-size: 40px;
+    font-size: 2em;
+    margin-left: 30px;
+}
+#right {
+    float: right;
+    clear: both;
+    width: 40%;
+    margin-right: 20px;
+}
+li {
+    font-size: .9em;
 }
 
-header li a {
-    color: midnightblue;
-    text-decoration: none;
 }
-
-header li:hover {
-    background-color: midnightblue;
-}
-
-header li a:hover {
-    color: ghostwhite;
-}
-
+@media only screen and (min-width: 768px) {
+    footer img {
+        width: 10%;
+        display: none;
+    }
+    main {
+        display: inline-block;
+        margin-top: 29em;
+    }
+    footer {
+        position: relative;
+        padding-top: 600px;
+        display: none;
+    }
